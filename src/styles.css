@@ -1,0 +1,99 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Exo 2", sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    height: 90px;
+    background: #023047;
+    color: white;
+    padding-left: 20px;
+}
+
+.option-buttons {
+    display: grid;
+    grid-template: 40px / 100px 100px;
+    gap: 40px;
+    margin-bottom: 17px;
+    padding-left: 36px;
+    padding-top: 36px;
+}
+
+.option--button {
+    font-family: "Exo 2", sans-serif;
+    width: 100px;
+    
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+
+.option--button:hover {
+    background: rgba(255, 183, 3, 0.4);
+    border: white;
+}
+
+.option--button:focus {
+    background: rgba(255, 183, 3);
+    border: white;
+}
+
+
+.prompt {
+    grid-column: 1 / -1;
+}
+
+
+.encode--inputs {
+    display: grid;
+    /* grid-template: 125px 40px/ 100px 100px; */
+    gap: 25px;
+    margin-bottom: 10px;
+    padding-left: 36px;
+
+
+}
+
+.photo--select--button {
+    font-family: "Exo 2", sans-serif;
+    width: 100px;
+    height: 40px;
+    
+    border-radius: 10px;
+    border: none;
+    background: #FB8500;
+}
+
+
+.encode--message--input {
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+    text-indent: 15px;
+    grid-column: 1 / -1;
+    width: 80vw;
+    height: 125px;
+    /* height: 125px; */
+
+    border-radius: 15px;
+    border: 2px solid #000;
+    background: #FFF;
+    box-shadow: 4px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.decode--inputs {
+    display: grid;
+    /* grid-template: 40px 40px/ 100px; */
+    gap: 25px;
+    margin-bottom: 10px;
+    padding-left: 36px;
+}
+
+
